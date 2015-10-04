@@ -133,7 +133,7 @@ section.module.parallax-1 {
 
 .planit {
   background-color: white;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .planit p {
@@ -146,11 +146,11 @@ section.module.parallax-1 {
 
 .brew {
   background-color: #333333;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .skillstack {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .skillstack p {
@@ -163,11 +163,11 @@ section.module.parallax-1 {
 
 .hangman {
   background-color: #333333;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .about {
-  padding: 40px 0;
+  padding: 60px 0 30px 0;
 }
 
 .contact p, .about p {
@@ -179,7 +179,7 @@ section.module.parallax-1 {
 }
 
 .contact {
-  padding: 40px 0;
+  padding: 30px 0 60px 0;
 }
 
 /*buttons*/
