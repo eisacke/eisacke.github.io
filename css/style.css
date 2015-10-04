@@ -91,6 +91,7 @@ header nav ul li a {
 /*parallax*/
 
 .banner-text {
+  min-width: 230px; 
   margin: 0 auto;
   padding: 0 20px;
   position: absolute;
