@@ -91,7 +91,6 @@ header nav ul li a {
 /*parallax*/
 
 .banner-text {
-  max-width: 500px;
   margin: 0 auto;
   padding: 0 20px;
   position: absolute;
@@ -266,11 +265,15 @@ footer {
 
 @media only screen and (max-width: 640px) {
   header nav ul li:first-child {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   button {
     display: block;
     margin: 20px auto 0 auto;
+  }
+
+  header nav ul li {
+    font-size: 12px;
   }
 }
