@@ -95,7 +95,7 @@ header nav ul li a {
   margin: 0 auto;
   padding: 0 20px;
   position: absolute;
-  top: 50%;
+  top: 33%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);  
   transform: translate(-50%, -50%);
@@ -117,7 +117,7 @@ section.module.parallax {
 }
 
 section.module.parallax-1 {
-  background-image: url("../images/london.jpeg");
+  background-image: url("../images/laptop.jpg");
 }
 
 /*sections*/
