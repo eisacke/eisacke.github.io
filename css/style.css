@@ -131,6 +131,11 @@ section.module.parallax-1 {
   margin: 0 auto;
 }
 
+.biliardino {
+  background-color: #333333;
+  padding: 60px 0;
+}
+
 .planit {
   background-color: white;
   padding: 60px 0;
@@ -183,6 +188,10 @@ section.module.parallax-1 {
 }
 
 /*buttons*/
+
+button:focus {
+  outline: 0;
+}
 
 button {
   font-family: 'Raleway', sans-serif;
@@ -253,6 +262,11 @@ button.invert:hover {
 
 .hangman-logo {
   height: 35px;
+  margin-bottom: 20px;
+}
+
+.biliardino-logo {
+  height: 50px;
   margin-bottom: 20px;
 }
 
