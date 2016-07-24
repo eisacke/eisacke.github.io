@@ -100,16 +100,16 @@ section {
     background-color: #ffe6ce; }
     section.section-contact:hover {
       background-color: #ffdebf; }
-    section.section-contact a {
+    section.section-contact a[class*="icon-"] {
       font-size: 26px;
       margin-top: 15px;
       display: inline-block; }
-      section.section-contact a:not(:last-of-type) {
+      section.section-contact a[class*="icon-"]:not(:last-of-type) {
         padding-right: 10px; }
   section.section-tech {
     background-color: #e2e2e2; }
     section.section-tech:hover {
-      background-color: #b1e2fa; }
+      background-color: #dadada; }
   section [class*="text-"] {
     padding: 20px; }
   section .text-title {

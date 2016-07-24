@@ -109,7 +109,7 @@ section {
     &:hover {
       background-color: darken($orange, 3%)
     }
-    a {
+    a[class*="icon-"] {
       font-size: 26px;
       margin-top: 15px;
       display: inline-block;
@@ -121,7 +121,7 @@ section {
   &.section-tech {
     background-color: $gray;
     &:hover {
-      background-color: darken($blue, 3%)
+      background-color: darken($gray, 3%)
     }
   }
   [class*="text-"] {
