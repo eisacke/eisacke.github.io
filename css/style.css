@@ -177,7 +177,7 @@ section {
     font-size: 18px;
     display: block; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px), screen and (max-height: 650px) {
   section[class*='section-'] {
     height: auto;
     width: 100%; }
