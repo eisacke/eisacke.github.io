@@ -57,7 +57,7 @@ h2 {
   font-family: 'Droid Sans Mono', monospace;
   position: relative;
   display: inline-block;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
   h2:after {
     content: "";
     display: block;
@@ -70,10 +70,12 @@ h2 {
 
 p {
   line-height: 1.3;
-  font-size: 18px; }
+  font-size: 20px; }
 
 a {
   color: #FFFFFF;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   transition: all 0.3s ease; }
   a:hover {
     opacity: 0.7; }
@@ -93,23 +95,23 @@ section {
     height: 50vh;
     width: 33.33%; }
   section.section-work {
-    background-color: #bfe7fb; }
+    background-color: #b1e5ff; }
     section.section-work:hover {
-      background-color: #b1e2fa; }
+      background-color: #a2e0ff; }
   section.section-contact {
-    background-color: #ffe6ce; }
+    background-color: #ffdebe; }
     section.section-contact:hover {
-      background-color: #ffdebf; }
+      background-color: #ffd6af; }
     section.section-contact a[class*="icon-"] {
-      font-size: 26px;
-      margin-top: 15px;
+      font-size: 30px;
+      margin-top: 20px;
       display: inline-block; }
       section.section-contact a[class*="icon-"]:not(:last-of-type) {
         padding-right: 10px; }
   section.section-tech {
-    background-color: #e2e2e2; }
+    background-color: #d6d6d6; }
     section.section-tech:hover {
-      background-color: #dadada; }
+      background-color: #cecece; }
   section [class*="text-"] {
     padding: 20px; }
   section .text-title {
@@ -130,15 +132,20 @@ section {
   position: relative; }
   .work-icons ul {
     position: absolute;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
     .work-icons ul li {
+      text-align: center;
       font-size: 0;
-      margin-bottom: -40px;
-      transition: all 0.3s ease; }
+      transition: all 0.3s ease;
+      width: 50%;
+      float: left; }
       .work-icons ul li:before {
-        font-size: 100px; }
+        font-size: 120px; }
       .work-icons ul li:hover {
         opacity: 0.7;
         cursor: pointer; }
@@ -156,16 +163,30 @@ section {
 .hidden div {
   display: none;
   background-color: #FFFFFF;
-  width: 75%;
+  max-width: 90%;
+  width: 800px;
   padding: 20px;
   color: #000000; }
   .hidden div h2:after {
     background-color: #000000; }
   .hidden div p {
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-size: 18px; }
   .hidden div a {
     color: #000000;
     font-size: 18px;
     display: block; }
+
+@media screen and (max-width: 767px) {
+  section[class*='section-'] {
+    height: auto;
+    width: 100%; }
+    section[class*='section-'] [class*='text-'] {
+      position: relative; }
+
+  .work-icons {
+    height: 350px; }
+    .work-icons ul li:before {
+      font-size: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
