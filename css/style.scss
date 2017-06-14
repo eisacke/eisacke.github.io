@@ -14,6 +14,11 @@ body {
     background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);
     background: linear-gradient(to right, #D6A4A4, #DAE2F8);
   }
+  &.pink {
+    background: #FFAFBD;
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+  }
 }
 
 * {
