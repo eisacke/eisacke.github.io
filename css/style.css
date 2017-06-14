@@ -3,8 +3,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   text-align: center;
-  color: white;
-  transition: background 4s ease; }
+  color: white; }
   body.blue {
     background: #6190E8;
     background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);
@@ -28,6 +27,8 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 400px;
   max-width: 80%; }
@@ -36,11 +37,15 @@ a {
   color: white; }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 1.3; }
 
 .contact a {
   font-size: 28px;
   text-decoration: none; }
+
+@media only screen and (max-width: 575px) {
+  .contact a {
+    font-size: 36px; } }
 
 /*# sourceMappingURL=style.css.map */
