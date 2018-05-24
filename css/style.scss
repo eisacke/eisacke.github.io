@@ -21,8 +21,10 @@ footer {
 
 .slide {
   position: relative;
+  z-index: 1;
   &:after {
     content: '';
+    z-index: 0;
     border-radius: 1px;
     opacity: 0.1;
     position: absolute;

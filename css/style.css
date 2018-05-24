@@ -14,9 +14,11 @@ footer {
   background-color: #2828e6; }
 
 .slide {
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   .slide:after {
     content: '';
+    z-index: 0;
     border-radius: 1px;
     opacity: 0.1;
     position: absolute;
