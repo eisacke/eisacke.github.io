@@ -1,17 +1,21 @@
 body {
-  font-family: 'Didact Gothic', sans-serif;
-  color: #2828e6;
-  line-height: 1.2; }
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #1c1cea;
+  line-height: 1.2;
+  font-weight: 300; }
 
 * {
   box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
 
 a, a:hover, a:visited {
   color: inherit;
   text-decoration: none; }
 
 footer {
-  background-color: #2828e6; }
+  background-color: #1c1cea; }
 
 .slide {
   position: relative;
@@ -26,7 +30,7 @@ footer {
     top: 0;
     left: -2px;
     width: 0;
-    background-color: #2828e6;
+    background-color: #1c1cea;
     transition: width 0.2s linear;
     display: block; }
   .slide:hover:after {
@@ -35,5 +39,10 @@ footer {
 .slide-white:after {
   background-color: white;
   opacity: 0.2; }
+
+.slide-static {
+  display: inline-block; }
+  .slide-static:after {
+    width: calc(100% + 4px); }
 
 /*# sourceMappingURL=style.css.map */

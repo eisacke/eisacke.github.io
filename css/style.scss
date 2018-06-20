@@ -1,13 +1,18 @@
-$brand: #2828e6;
+$brand: #1c1cea;
 
 body {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: $brand;
   line-height: 1.2;
+  font-weight: 300;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
 }
 
 a, a:hover, a:visited {
@@ -47,5 +52,12 @@ footer {
   &:after {
     background-color: white;
     opacity: 0.2;
+  }
+}
+
+.slide-static {
+  display: inline-block;
+  &:after {
+    width: calc(100% + 4px);
   }
 }
