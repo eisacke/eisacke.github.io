@@ -1,8 +1,7 @@
-$brand: #1c1cea;
+$brand: #000;
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
-  color: $brand;
+  font-family: 'Lora', serif;
   line-height: 1.2;
   font-weight: 300;
 }
@@ -15,43 +14,37 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+strong {
+  font-weight: 700;
+}
+
 a, a:hover, a:visited {
   color: inherit;
   text-decoration: none;
 }
 
-footer {
-  background-color: $brand;
-}
-
 .slide {
   position: relative;
   z-index: 1;
-  &:after {
+  &:before {
     content: '';
-    z-index: 0;
+    z-index: -1;
     border-radius: 1px;
-    opacity: 0.1;
+    // opacity: 0.1;
     position: absolute;
     bottom: 0;
     top: 0;
     left: -2px;
     width: 0;
-    background-color: $brand;
+    background-color: #fff719;
     transition: width 0.2s linear;
     display: block;
   }
   &:hover {
-    &:after {
+    // color: fuchsia;
+    &:before {
       width: calc(100% + 4px);
     }
-  }
-}
-
-.slide-white {
-  &:after {
-    background-color: white;
-    opacity: 0.2;
   }
 }
 
